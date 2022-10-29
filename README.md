@@ -20,3 +20,5 @@ Start by importing the library into your project<br>
 
 `fetchFederationAddress(string: @stellarAddress)` ex: "GAB..."
 
+
+npmjs: https://www.npmjs.com/package/stellar-sdk-federation-validator
