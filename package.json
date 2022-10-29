@@ -1,8 +1,7 @@
 {
   "name": "stellar-sdk-federation-validator",
   "version": "1.0.0",
-  "description": "Simple library to lookup Stellar Federation addresses, and and reverse lookup a 
-account_id",
+  "description": "Simple library to lookup Stellar Federation addresses",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
