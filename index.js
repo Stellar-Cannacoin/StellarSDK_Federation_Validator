@@ -19,10 +19,10 @@ axios.get("https://"+address.split("*")[1]+"/.well-known/stellar.toml")
     })
 }
 
-const fetchFederationAddress = (address) => {
+const fetchFederationAddress = (federation, address) => {
     return new Promise (async (resolve, reject) => {
         let tomlLookup = await 
-axios.get("https://"+address.split("*")[1]+"/.well-known/stellar.toml")
+axios.get("https://"+federation+"/.well-known/stellar.toml")
         let federationUrl = tomlLookup.data.split('FEDERATION_SERVER="')[1].split('"')[0]
 
         axios.get(federationUrl+"?q="+address+"&type=id")
