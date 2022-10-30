@@ -18,7 +18,7 @@ Start by importing the library into your project<br>
 
 #### Fetch federation address from G-address <br>
 
-`fetchFederationAddress(string: @stellarAddress)` ex: "GAB..."
+`fetchFederationAddress(string: @federationUrl, string: @stellarAddress)` ex: "https:lobstr.co/federation","GAB..."
 
 
 npmjs: https://www.npmjs.com/package/stellar-sdk-federation-validator
